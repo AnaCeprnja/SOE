@@ -19,6 +19,10 @@ function Navbar() {
     };
 
     useEffect(() => {
+        showButton()
+    }, []);
+
+    useEffect(() => {
         showButton();
     }, []);
 
@@ -29,7 +33,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        EXPLORE
+                        CALM
             <i class='fab fa-typo3' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -52,11 +56,11 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link
-                                to='/adventure'
+                                to='/resources'
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Adventure
+                                Resources
               </Link>
                         </li>
 
