@@ -11,8 +11,8 @@ function HeroSection() {
             <p>We're happy you're here</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline'
-                    buttonSize='btn--large'>READY?</Button>
-                <Button href='/watch' className='btns' buttonStyle='btn--primary'
+                    buttonSize='btn--large'>DOCUMENTARY</Button>
+                <Button href='/blog' className='btns' buttonStyle='btn--primary'
                     buttonSize='btn--large'>WATCH ME <i className='far fa-play-circle' /></Button>
             </div>
 
