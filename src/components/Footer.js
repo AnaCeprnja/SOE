@@ -28,15 +28,7 @@ function Footer() {
                 </div>
                 <div className='footer-link-wrapper'>
 
-                    <div class='footer-link-items'>
-                        <h2>Social Media</h2>
 
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
-                        <Link to='/'>LinkedIn </Link>
-                        <Link to='/'>Facebook </Link>
-                    </div>
                 </div>
             </div>
             <section class='social-media'>

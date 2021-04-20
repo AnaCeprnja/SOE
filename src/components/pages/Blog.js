@@ -10,33 +10,30 @@ function Blog() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img1.jpg'
-                            text='"We don’t have time to sit on our hands as our planet burns. For young people, climate change is bigger than election or re-election. It’s life or death.”
--Alexandria Ocasio-Cortez'
+                            src='images/img5.jpg'
+                            text='NASA-Built Instrument Will Help Spot Greenhouse Gas Super-Emitters'
                             label='NASA'
-                            path='/https://climate.nasa.gov/'
+
+                            path='/blog'
                         />
                         <CardItem
-                            src='images/panda.jpg'
-                            text='"Nature does not need people - people need nature; nature would survive the extinction of the human being and go on just fine, but human culture, human beings, cannot survive without nature."- Harrison Ford'
-                            label='Species Extinction'
+                            src='images/img4.jpg'
+                            text='NASA Satellites Detect Signs of Volcanic Unrest Years Before Eruptions'
+                            label='NASA'
                             path='/blog'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/pol.jpg'
-                            text='“Water and air, the two essential fluids on which all life depends, have become global garbage cans.”
-                            ― Jacques-Yves Cousteau'
-                            label='Pollution'
+                            src='images/img2.jpg'
+                            text='Global Climate Change: What You Need to Know'
+                            label='NRDC'
                             path='/blog'
                         />
                         <CardItem
-                            src='images/fire.jpeg'
-                            text='
-                            “Humanity should not remain insensitive to the forest fire or wildfire every year. Unless we act, the loss of biodiversity and extinction of herbs, birds and animals and the pains of the trees, birds, animals and the poor is also alarming signal for the extinction of humanity itself.”
-                            ― Amit Ray'
-                            label='Wildfires'
+                            src='images/img3.jpg'
+                            text='Climate Change Is Accelerating, Bringing World ‘Dangerously Close’ to Irreversible Change'
+                            label='New York Times'
                             path='/blog'
                         />
                     </ul>
